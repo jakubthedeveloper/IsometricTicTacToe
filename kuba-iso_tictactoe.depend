@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1548960278 source:/media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/main.cpp
+	<SDL2/SDL.h>
+	<stdio.h>
+	"include/Game.h"
+	<cstdlib>
+	<iostream>
+	<string>
+
+1549005735 /media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/include/Game.h
+	<SDL2/SDL.h>
+	<View.h>
+	<Board.h>
+	<cstdlib>
+	<iostream>
+	<string>
+
+1549005604 /media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/include/WorldMap.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<IsoConvert.h>
+	<Board.h>
+	<time.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	<SDL2/SDL_ttf.h>
+
+1548702583 /media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/include/IsoConvert.h
+	<Point.h>
+
+1548868049 /media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/include/Point.h
+
+1548930626 source:/media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/src/IsoConvert.cpp
+	"IsoConvert.h"
+
+1548868150 source:/media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/src/Point.cpp
+	"Point.h"
+
+1548960338 source:/media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/src/WorldMap.cpp
+	"WorldMap.h"
+
+1549005782 source:/media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/src/Game.cpp
+	"../include/Game.h"
+
+1548743710 source:/media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/src/Player.cpp
+	"Player.h"
+
+1548702476 /media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/include/Player.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"Point.h"
+	"IsoConvert.h"
+	<cstdlib>
+	<iostream>
+	<string>
+
+1549006355 /media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/include/Board.h
+	<cstdlib>
+	<iostream>
+	<string>
+
+1549006355 source:/media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/src/Board.cpp
+	"Board.h"
+
+1549006128 /media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/include/View.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<IsoConvert.h>
+	<Board.h>
+	<time.h>
+	<cstdlib>
+	<iostream>
+	<string>
+	<SDL2/SDL_ttf.h>
+
+1549006230 source:/media/jakub/Home/programowanie/kuba-sdl/iso-tictactoe/src/View.cpp
+	"View.h"
+
