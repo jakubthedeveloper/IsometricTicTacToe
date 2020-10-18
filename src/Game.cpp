@@ -83,7 +83,6 @@ void Game::render()
     SDL_RenderClear(renderer);
 
     view->draw();
-    //player->draw();
 
     SDL_RenderPresent(renderer);
 }
