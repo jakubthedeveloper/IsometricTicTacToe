@@ -4,6 +4,7 @@ TicTacToe game with isometic view.
 
 ## Compile and run
 gcc main.cpp -lSDL2 -o game
+
 ./game
 
 ## Blog
