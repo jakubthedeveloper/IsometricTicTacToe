@@ -5,7 +5,6 @@
 #include <iostream>
 #include <string>
 
-SDL_Surface * ekran = NULL;
 Game *game = nullptr;
 
 int main( int argc, char * args[] )
